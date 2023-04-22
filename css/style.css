@@ -16,7 +16,7 @@ h1{
 .texto{
     color:#AF62F4;
 }
-div{
+.columnas{
     display: inline-block;
     margin-left: 250px;
 }
@@ -84,4 +84,35 @@ footer div{
 }
 .docente{
     display: inline;
+}
+.formulario{
+    margin: 12px 60px;
+    margin-left: 10px;
+    width:150px;
+}
+.inscripcion{
+    
+    width:80%;
+    margin: auto;
+}
+.agregar{
+    justify-content: left;
+}
+.agregar p, .agregar img{
+    display: inline-block;
+    margin: 10px 2px;
+}
+.titulo{
+    margin-top:30px;
+    text-align: left;
+}
+.precio{
+    background-color: black;
+    color:#AF62F4;
+    display:inline-block;
+    text-align: center;
+    padding: 3px;
+}
+button{
+    padding: 5px;
 }
