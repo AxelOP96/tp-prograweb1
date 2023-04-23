@@ -115,4 +115,32 @@ footer div{
 }
 button{
     padding: 5px;
+    
+}
+.text{
+    text-align: center;
+
+}
+.contacto{
+    margin: 10px 0;
+    width: 300px;
+}
+.imgcontacto{
+    margin: 0;
+    margin-top:-300px;
+    height: 300px;
+}
+.izquierda{
+    display: inline-block;
+    width:45%;
+    margin: auto;
+}
+.derecha{
+    display: inline-block;
+    width:45%;
+    margin: auto;
+}
+.enviar{
+    display: block;
+    margin: 10px 325px;
 }
