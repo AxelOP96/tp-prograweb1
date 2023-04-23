@@ -10,9 +10,29 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="img/logo.jpg" alt="logo "></a>
-        <input type="text" placeholder="">
-        <img src="img/carro.png" width="20">
+        <nav>
+            <a href="index.html"><img src="img/logo.jpg" alt="logo "></a>
+            <datalist id="cursos">
+                <option value="JavaScript"></option>
+                <option value="Go"></option>
+                <option value="Java"></option>
+                <option value="Scala"></option>
+                <option value="Python"></option>
+                <option value="C"></option>
+                <option value="Algoritmos"></option>
+                <option value="Android"></option>
+                <option value="Kotlin"></option>
+                <option value="Spring"></option>
+                <option value="SQL"></option>
+                <option value="Rust"></option>
+                <option value="Flask"></option>
+                <option value="NumPy"></option>
+            </datalist>
+            <label for="curso"></label>
+            <input id="curso" name="curso" type="text" placeholder="" list="cursos">
+            <img src="img/carro.png" width="20">
+        </nav>
+        
 
     </header>
     <h1>Menu</h1>
@@ -23,11 +43,28 @@
                     TITULO CURSO
                 </h2>
                 <h3 class="titulo">INSCRIPCION</h3>
-                <input class="formulario" type="text" placeholder="Ingrese el nombre" width="200"><input class="formulario" type="text" placeholder="Ingrese el apellido" width="100"><input class="formulario" type="number" placeholder="Ingrese el DNI" width="200"><img src="./img/menos.png" alt="simbolo de menos" width="30">
-                <input class="formulario" type="text" placeholder="Ingrese el nombre"><input class="formulario" type="text" placeholder="Ingrese el apellido"><input class="formulario" type="number" placeholder="Ingrese el DNI"><img src="./img/menos.png" alt="simbolo de menos" width="30">
-
-                <input class="formulario" type="text" placeholder="Ingrese el nombre"><input class="formulario" type="text" placeholder="Ingrese el apellido"><input class="formulario" type="number" placeholder="Ingrese el DNI"><img src="./img/menos.png" alt="simbolo de menos" width="30">
-                
+                <form action="#" method="get">
+                    <label for="name"></label>
+                    <input id="name" autofocus class="formulario" name="name" type="text" placeholder="Ingrese el nombre" width="200">
+                    <label for="surname"></label>
+                    <input id="surname" class="formulario" name="surname" type="text" placeholder="Ingrese el apellido" width="100">
+                    <label for="dni"></label>
+                    <input id="dni" class="formulario" name="dni" type="number" placeholder="Ingrese el DNI" width="200"><img src="./img/menos.png" alt="simbolo de menos" width="30">
+                    <br>
+                    <label for="name"></label>
+                    <input id="name" class="formulario" name="name" type="text" placeholder="Ingrese el nombre">
+                    <label for="surname"></label>
+                    <input id="surname" class="formulario" name="surname" type="text" placeholder="Ingrese el apellido">
+                    <label for="dni"></label>
+                    <input class="formulario" type="number" name="dni" placeholder="Ingrese el DNI"><img src="./img/menos.png" alt="simbolo de menos" width="30">
+                    <br>
+                    <label for="name"></label>
+                    <input id="name" class="formulario" name="name" type="text" placeholder="Ingrese el nombre">
+                    <label for="surname"></label>
+                    <input id="surname" class="formulario" name="surname" type="text" placeholder="Ingrese el apellido">
+                    <label for="dni"></label>
+                    <input class="formulario" type="number" name="dni" placeholder="Ingrese el DNI"><img src="./img/menos.png" alt="simbolo de menos" width="30">
+                </form>
             </div>
             <div class="inscripcion agregar">
                 <img src="./img/mas.png" alt="simbolo de mas" width="30"><p>Agregar persona</p>
