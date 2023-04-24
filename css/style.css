@@ -1,18 +1,25 @@
+
+/*QUITA MARGENES DE LAS PAGINAS*/
 *{
     box-sizing: border-box;
     margin: 0;
 }
+/*FONDO DE COLOR
+TIPOGRAFIA DE COLOR*/
 body{
     background-color: #C0DBEA;
     color:#AF62F4;
 }
+/*COLOR DE HEADER*/
 header{
     background-color: #E8A0BF;
 }
+/**/
 h1{
     background-color: #FDF4F5;
     text-align: center;
 }
+/**/
 .texto{
     color:#AF62F4;
 }
