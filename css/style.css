@@ -13,45 +13,90 @@ body{
 /*COLOR DE HEADER*/
 header{
     background-color: #E8A0BF;
+    
 }
-/**/
-h1{
+
+/*Etiqueta nav*/
+.navegador{
+    width: 70%;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/*Color del menu de navegacion*/
+.menu-navegacion{
     background-color: #FDF4F5;
     text-align: center;
+    padding: 10px 0;
 }
-/**/
+/*Links del menu*/
+.links{
+    text-decoration: none;
+    padding: 30px;
+}
+/*Links del footer*/
+.links2{
+    text-decoration: none;
+}
+.links:hover, .links2:hover{
+    text-decoration: underline;
+    color:#480440;
+}
+/*Color del texto*/
 .texto{
     color:#AF62F4;
 }
-.columnas{
-    display: inline-block;
-    margin-left: 250px;
+.curso-principal{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
 }
-img{
+.pasos{
+    width: 80%;
+    margin: auto;
+}
+.img{
     margin-left: 100px;
-    vertical-align: middle;
+    align-self: center;
 }
-input{
+.input{
     margin-left: 200px;
     vertical-align: 20%;
     width: 400px;
+    height: 20px;
+    align-self: center;
 }
-h2, h3{
+.subtitulo{
     text-align: center;
-    margin-top: 200px;
+    
 }
-footer{
-    margin-top: 100px;
-    padding: 30px;
+.pago{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pie{
     margin-bottom: 0px;
     background-color: #E8A0BF;
     display: flex;
     justify-content: space-around;
 }
+.columnas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*
 footer div{
     text-align: center;
     margin: 10px;
-}
+}*/
 .destacados{
     display: flex;
     justify-content: space-around;

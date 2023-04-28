@@ -15,7 +15,7 @@
     https://looka.com/explore
 -->
     <header>
-        <nav>
+        <nav class="navegador">
             <a href="index.html"><img src="img/logo.jpg" alt="logo "></a>
             <datalist id="cursos">
                 <option value="JavaScript"></option>
@@ -34,53 +34,90 @@
                 <option value="NumPy"></option>
             </datalist>
             <label for="curso"></label>
-            <input id="curso" name="curso" type="text" placeholder="" list="cursos">
-            <img src="img/carro.png" width="20">
+            <input class="input" id="curso" name="curso" type="text" placeholder="" list="cursos">
+            <img class="img" src="img/carro.png" width="20">
         </nav>
 
     </header>
+    <main>
+        <section class="menu-navegacion">
+            <span class=""><a class="links" href="#">Home</a></span>
+            <span class=""><a class="links" href="calendario.html">Calendario</a></span>
+            <span class=""><a class="links" href="formulario.html">Inscripcion</a></span>
+            <span class=""><a class="links" href="giftcard.html">Regala un curso</a></span>
+            <span class=""><a class="links" href="contacto.html">Contactanos</a></span>
+            <!--h1>Menu</h1-->
+        </section>
+        <section class="curso-principal">
+            <a href=""><img src="./img/flechaizq.png" alt="" width="100"></a>
+            <span><img src="./img/java.svg" alt="logo de Java" width="250">
+                </span>
+
+            <a href=""><img src="./img/flechader.png" alt="" width="100"></a>
+        </section>
+        <section class="pasos">
+            <article>
+                <p class="texto">Paso 1</p>
+
+            </article>
+            <article>
+                <p class="texto">Paso 2</p>
+
+            </article>
+            <article>
+                <p class="texto">Paso 3</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2 class="subtitulo">Cursos destacados</h2>
+                <div class="destacados">
+                    <a href="#">
+                        <img src="./img/go.svg" alt="Go">
+                        <p class="texto">Go</p>
+                    </a>
+                    <a href="#"><img src="./img/python.svg" alt="Python"><p class="texto">Python</p></a>
+                    <a href="#"><img src="./img/javascript.svg" alt="JavaScript"><p class="texto">JavaScript</p></a>
+                </div>    
+                <div class="destacados">
+                    <a href="detalles.html"><img src="./img/algorithms.svg" alt="Algoritmos"><p class="texto">Algoritmos</p></a>
+                    <a href="#"><img src="./img/scala.svg" alt="Scala"><p class="texto">Scala</p></a>
+                    <a href="#" ><img src="./img/kotlin.svg" alt="Kotlin"><p class="texto">Kotlin</p></a>
+                </div>    
+                <h3 class="subtitulo">Medios de pago</h3>
+            </article>
+        </section>
+        <aside class="pago">
+            
+            <img src="./img/mercadopago.png" alt="" width="100" height="130">
+            <img src="./img/visa.png" alt="" width="100" height="130">
+            <img src="./img/paypal.png" alt="" width="100" height="130">
+            <img src="./img/bitcoin.png" alt="" width="100" height="130">
+        </aside>
+    </main>
     
-    <section>
-        <h1>Menu</h1>
-    </section>
-    <section>
-        <article>
-            <h2>Cursos destacados</h2>
-            <div class="destacados">
-                <a href="#">
-                    <img src="./img/go.svg" alt="Go">
-                    <p class="texto">Go</p>
-                </a>
-                <a href="#"><img src="./img/python.svg" alt="Python"><p class="texto">Python</p></a>
-                <a href="#"><img src="./img/javascript.svg" alt="JavaScript"><p class="texto">JavaScript</p></a>
-            </div>    
-            <div class="destacados">
-                <a href="detalles.html"><img src="./img/algorithms.svg" alt="Algoritmos"><p class="texto">Algoritmos</p></a>
-                <a href="#"><img src="./img/scala.svg" alt="Scala"><p class="texto">Scala</p></a>
-                <a href="#" ><img src="./img/kotlin.svg" alt="Kotlin"><p class="texto">Kotlin</p></a>
-            </div>    
-                
-                
-            
-            
-            
-        </article>
-    </section>
-    <aside>
-        <h3>Medios de pago</h3>
-    </aside>
-    <footer>
+    <footer class="pie">
         <div class="columnas">
-            <p>Datos del grupo</p>
-            <p>Grupo 16</p>
-            <p>Leguero Axel DNI 39415747</p>
-            <p>Cubilla Benitez Alexis Dni </p>
+            <p class="texto">Datos del grupo</p>
+            <p class="texto">Grupo 16</p>
+            <p class="texto">Leguero Axel DNI 39415747</p>
+            <p class="texto">Cubilla Benitez Alexis Dni </p>
         </div>
         <div class="columnas">
-            <p>Menu inferior</p>
+            <a href="#inicio" class="links2">Ir arriba</a>
+            <a href="index.html" class="links2">Home</a>
+            <a href="formulario.html" class="links2">Inscribite</a>
+            <a href="giftcard.html" class="links2">Regala un curso</a>
+            <a href="calendario.html" class="links2">Calendario de cursos</a>
+            <a href="contacto.html" class="links2">Contactanos</a>
+            
+
         </div>
         <div class="columnas">
-            <p>Redes sociales</p>
+            <p class="texto">Redes sociales</p>
+            <a href=""><img src="./img/face.png" alt="logo de Facebook" width="30"></a>
+            <a href=""><img src="./img/insta.png" alt="logo de Instagram" width="30"></a>
+            <a href=""><img src="./img/twitter.png" alt="logo de Twitter" width="30"></a>
         </div>
     </footer>
 </body>
