@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navegador">
             <a href="index.html"><img src="img/logo.jpg" alt="logo "></a>
             <datalist id="cursos">
                 <option value="JavaScript"></option>
@@ -29,52 +29,103 @@
                 <option value="NumPy"></option>
             </datalist>
             <label for="curso"></label>
-            <input id="curso" name="curso" type="text" placeholder="" list="cursos">
-            <img src="img/carro.png" width="20">
+            <input class="input" id="curso" name="curso" type="text" placeholder="" list="cursos">
+            <img class="img" src="img/carro.png" width="20">
         </nav>
 
     </header>
-    <h1>Menu</h1>
-    <section class="detalles">
+    <main>
+        <section class="menu-navegacion">
+            <span class=""><a class="links" href="#">Home</a></span>
+            <span class=""><a class="links" href="calendario.html">Calendario</a></span>
+            <span class=""><a class="links" href="formulario.html">Inscripcion</a></span>
+            <span class=""><a class="links" href="giftcard.html">Regala un curso</a></span>
+            <span class=""><a class="links" href="contacto.html">Contactanos</a></span>
+            <!--h1>Menu</h1-->
+        </section>
+        <section class="detalles">
         
-        <div class="detallescaja"><img src="./img/algo.webp" width="300" alt="algoritmos"></div>
-        <div class="detallescaja"><h2>Titulo del curso</h2>
-            <p>Valor:</p>
-            <p> tiempo de dedicacion necesario: </p>
-            <p>Descripcion del curso: </p>
-            <p>Requisitos previos:</p>
-            <button>Inscribirse</button></div>
+            <div class="detallescaja">
+                <img src="./img/algo.webp" width="300" alt="algoritmos">
+            </div>
+            <div class="detallescaja">
+                <h2>Algoritmos</h2>
+                <p>Valor: $3000</p>
+                <p> tiempo de dedicacion necesario: 20 horas</p>
+                <p>Descripcion del curso: Curso de algoritmos desde diagramas de flujo hasta resolver problemas en codigo</p>
+                <p>Requisitos previos: Ninguno</p>
+                <button>Inscribirse</button>
+        </div>
         
     </section>
     <section>
-        <h2>Contenidos por clase</h2>
-    </section>
-    <section>
-        <article class="docente">
-            <h2>Docente</h2>
-            <img class="avatar" src="./img/profe.png" alt="">
-            <p>Nombre y apellido <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam nesciunt, sit, consequatur optio facere, officiis dicta iusto natus illum voluptatem rem. Sunt minus sequi doloremque qui quae eveniet aperiam perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error earum, voluptatum quas nobis, ullam et autem possimus quo accusamus totam, dolorum eum voluptatem dicta? Consequatur odio maiores pariatur consectetur earum.</p>
+        <article class="detalles-vista">
+            <h2>Contenidos por clase</h2>
+            <span class="ordenamiento rectangulo white"><p>INTRODUCCION</p><img src="./img/arriba.png" alt="" width="15"></span>
 
-            
+            <span class="ordenamiento rectangulo grey"><img src="./img/video.png" alt="" width="15"><p>Diagramas de flujo</p><img src="./img/reloj.png" alt="" width="15"><p>10 min</p><img src="./img/hecho.png" alt="" width="15"></span>
+
+            <span class="ordenamiento rectangulo grey"><img src="./img/sonido.png" alt="" width="15"><p>Ejercitacion</p><img src="./img/reloj.png" alt="" width="15"><p>10 min</p><img src="./img/circulo.png" alt="" width="15"></span>
+
+            <span class="ordenamiento rectangulo grey"><img src="./img/texto.png" alt="" width="15"><p>Variables</p><img src="./img/reloj.png" alt="" width="15"><p>10 min</p><img src="./img/circulo.png" alt="" width="15"></span>
+
+            <span class="ordenamiento rectangulo grey"><img src="./img/examen.png" alt="" width="15"><p>EXAMEN</p><img src="./img/reloj.png" alt="" width="15"><p>10 min</p><img src="./img/circulo.png" alt="" width="15"></span>
+
+            <span class="ordenamiento rectangulo white"><p>UNIDAD 2</p><img src="./img/abajo.png" alt="" width="15"></span>
+
+            <span class="ordenamiento rectangulo white"><p>UNIDAD 3</p><img src="./img/abajo.png" alt="" width="15"></span>
         </article>
+        
+
     </section>
-    <aside>
-        <div class="destacados">
-            <a href="#">
-                <img src="./img/go.svg" alt="Go">
-                <p class="texto">Go</p>
-            </a>
-            <a href="#"><img src="./img/python.svg" alt="Python"><p class="texto">Python</p></a>
-            <a href="#"><img src="./img/javascript.svg" alt="JavaScript"><p class="texto">JavaScript</p></a>
-        </div> 
-    </aside>
-    <footer>
-        <div class="columnas"><p>Datos del grupo</p></div>
+    <h2 class="subtitulo">Docente</h2>
+        <section class="informacion">
+            
+            <article class="docente">
+                <img class="avatar" src="./img/profe.png" alt="">
+            </article>
+            <article class="resenia"><p>Edna K</p>
+                <img src="./img/stella.png" alt="" width="20" height="20">
+                <img src="./img/stella.png" alt="" width="20" height="20">
+                <img src="./img/stella.png" alt="" width="20" height="20">
+                <img src="./img/stella.png" alt="" width="20" height="20">
+                <img src="./img/estrella.png" alt="" width="20" height="20">
+                <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam nesciunt, sit, consequatur optio facere, officiis dicta iusto natus illum voluptatem rem. Sunt minus sequi doloremque qui quae eveniet aperiam perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error earum, voluptatum quas nobis, ullam et autem possimus quo accusamus totam, dolorum eum voluptatem dicta? Consequatur odio maiores pariatur consectetur earum.</p></article>
+        </section>
+        <aside>
+            <div class="destacados">
+                <a href="#">
+                    <img src="./img/go.svg" alt="Go">
+                    <p class="texto">Go</p>
+                </a>
+                <a href="#"><img src="./img/python.svg" alt="Python"><p class="texto">Python</p></a>
+                <a href="#"><img src="./img/javascript.svg" alt="JavaScript"><p class="texto">JavaScript</p></a>
+            </div> 
+        </aside>
+    </main>
+    
+    <footer class="pie">
         <div class="columnas">
-            <p>Menu inferior</p>
+            <p class="texto">Datos del grupo</p>
+            <p class="texto">Grupo 16</p>
+            <p class="texto">Leguero Axel DNI 39415747</p>
+            <p class="texto">Cubilla Benitez Alexis Dni </p>
         </div>
         <div class="columnas">
-            <p>Redes sociales</p>
+            <a href="#inicio" class="links2">Ir arriba</a>
+            <a href="index.html" class="links2">Home</a>
+            <a href="formulario.html" class="links2">Inscribite</a>
+            <a href="giftcard.html" class="links2">Regala un curso</a>
+            <a href="calendario.html" class="links2">Calendario de cursos</a>
+            <a href="contacto.html" class="links2">Contactanos</a>
+            
+
+        </div>
+        <div class="columnas">
+            <p class="texto">Redes sociales</p>
+            <a href=""><img src="./img/face.png" alt="logo de Facebook" width="30"></a>
+            <a href=""><img src="./img/insta.png" alt="logo de Instagram" width="30"></a>
+            <a href=""><img src="./img/twitter.png" alt="logo de Twitter" width="30"></a>
         </div>
     </footer>
 </body>

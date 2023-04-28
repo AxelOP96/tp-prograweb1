@@ -56,6 +56,10 @@ header{
 .pasos{
     width: 80%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .img{
     margin-left: 100px;
@@ -92,11 +96,7 @@ header{
     flex-direction: column;
     align-items: center;
 }
-/*
-footer div{
-    text-align: center;
-    margin: 10px;
-}*/
+
 .destacados{
     display: flex;
     justify-content: space-around;
@@ -112,12 +112,17 @@ footer div{
     margin:30px;
 }
 .detalles{
+    width: 80%;
+    margin: auto;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-end;
-
+}
+.detalles-vista{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
 }
 .detallescaja{
     display: inline-block;
@@ -126,16 +131,48 @@ footer div{
     padding: 10px;
     
 }
+.detallescaja p{
+    margin-top: 10px;
+}
+.detallescaja button:hover{
+    background-color: #AF62F4;
+    color:white;
+    border: none;
+}
+.ordenamiento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.rectangulo{
+    width:300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.grey{
+    background-color: #dbd6d6;
+}
+.white{
+    background-color: white;
+}
 .docente p{
-    margin: 0 40px;
+    margin: 10px 40px;
     display: inline-block;
 }
 .avatar{
     width:100px;
     border-radius: 50%;
 }
+.informacion{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: #E8A0BF;
+}
 .docente{
-    display: inline;
+    margin: 30px;
 }
 .formulario{
     margin: 12px 60px;
