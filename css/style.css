@@ -47,6 +47,9 @@ header{
 .texto{
     color:#AF62F4;
 }
+.curso{
+    border: 1px solid #480440;
+}
 .curso-principal{
     width: 80%;
     margin: auto;
