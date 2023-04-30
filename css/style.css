@@ -49,6 +49,20 @@ header{
 }
 .curso{
     border: 1px solid #480440;
+    padding: 0 20px;
+    border-radius: 25px;
+}
+.chica, .chica p{
+    font-size: 11px;
+    text-decoration: none;
+}
+.chica button{
+    background-color: #AF62F4;
+}
+.chica button:hover{
+    background-color: #480440;
+    color: #C0DBEA;
+    cursor: pointer;
 }
 .curso-principal{
     width: 80%;
@@ -110,6 +124,7 @@ header{
     margin: 45px;
     flex-wrap: wrap;
     align-content: space-around;
+    margin: 20px;
 }
 .destacados img{
     margin:30px;
@@ -208,6 +223,11 @@ header{
 button{
     padding: 5px;
     
+}
+.maze{
+    background-image: url(../img/maze.jpg);
+    text-align: center;
+    font-size: 40px;
 }
 .text{
     text-align: center;
